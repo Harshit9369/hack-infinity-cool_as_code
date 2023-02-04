@@ -20,6 +20,10 @@ nav .menu-img{
     width: 25px;
     margin-right: 20px;
     cursor: pointer;
+    
+}
+nav .menu-img:hover{
+    color: green;
 }
 
 nav .logo{
@@ -27,10 +31,30 @@ nav .logo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
 }
+.some pre a{
+     text-decoration: none;
+     color: aqua;
+     font-weight: bold;
+    cursor: pointer;
+}
+.some pre {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.some{
+    padding: 0%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30%;
+}
 
 nav ul{
     flex: 1;
     text-align: right;
+}
+
+.nav-list li a:hover{
+    color:green;
 }
 nav ul li{
     display: inline-block;
