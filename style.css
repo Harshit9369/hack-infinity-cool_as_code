@@ -1,0 +1,217 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.hero{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+nav .menu-img:hover{
+    color: green;
+}
+
+nav .logo{
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.some pre a{
+     text-decoration: none;
+     color: aqua;
+     font-weight: bold;
+    cursor: pointer;
+}
+.some pre {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.some{
+    padding: 0%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-list li a:hover{
+    color:green;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.money-img{
+    cursor: pointer;
+    width: 700px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+
+ .text{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 100px;
+ }
+ .title{
+    position: absolute;
+    top: 15%;
+    left: 57%;
+    width: 100%;
+ }
+  .title p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+
+  }
+  .para{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    font-size: 28px;
+  }
+  .blogs{
+    position: absolute;
+    top: 60%;
+    left: 48%;
+    font-size: 29px;
+  }
+  .para pre span{
+    font-family: 'Courier New', Courier, monospace ;
+    
+
+  }
+  .para pre span a{
+    text-decoration: none;
+    color: aqua;
+  }
+
+  body{
+    overflow-x: hidden
+  }
+
+/*FOOTER STARTS HERE*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;    
+}
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: black;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height : 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5 ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+@media(max-width:768px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px){
+   .footer-col{
+    width: 100%;
+   }
+}
