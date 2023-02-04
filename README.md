@@ -1,6 +1,8 @@
 # hack-infinity-cool_as_code
 Building a project for Personal Budget Tracking.
 
+
+
 THE MAIN CODE IS IN THE INDEX.HTML FILE. WE HAVE LINKED ALL THE WEBPAGES TO THAT ONLY. SO, TO ACCESS OUR PROJECT, MAKE SURE TO ADD ALL THE GIVEN FILES IN A COMMON FOLDER AND THEN USE THE INDEX.HTML FILE TO FINALLY OPEN THE DESIRED WEBPAGE. 
 
 PROJECT DESCRIPTION:-
@@ -17,4 +19,4 @@ Up until yet, we have completed our first page and different team members are wo
 Before the beginning of the second phase, we finished the different webpages to be linked with the landing page of our project and started working on the main tool which is the Budget Tracker.
 
 After the second phase, we were done with the Budget Tracker tool too. So, now, the only thing we had to do is link all the webpages together. 
-We overall completed our project and then we uploaded it in our repository. Hope you like it!
+We overall completed our project and then we uploaded it in our repository.Also, we have deployed our project as a website using netlify. Hope you like it!
