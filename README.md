@@ -1,8 +1,9 @@
 # hack-infinity-cool_as_code
-Building a project for personal budget tracking.
+Building a project for Personal Budget Tracking.
 
 THE MAIN CODE IS IN THE INDEX.HTML FILE. WE HAVE LINKED ALL THE WEBPAGES TO THAT ONLY. SO, TO ACCESS OUR PROJECT, MAKE SURE TO ADD ALL THE GIVEN FILES IN A COMMON FOLDER AND THEN USE THE INDEX.HTML FILE TO FINALLY OPEN THE DESIRED WEBPAGE. 
 
+PROJECT DESCRIPTION:-
 
 Since we are just a bunch of novices in this particular field, we have used HTML5 and CSS3 to create the landing page of our project.
 Furthermore, we have tried to make our website as responsive and as user friendly as we could.
